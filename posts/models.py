@@ -23,6 +23,7 @@ class Post(models.Model):
         Status,
         on_delete=models.CASCADE
     )
+    archived = models.BooleanField(default=False)
 
     def __str__(self):
         return self.title
