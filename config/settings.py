@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'pages',
     'posts',
     'accounts',
-]
+    ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
